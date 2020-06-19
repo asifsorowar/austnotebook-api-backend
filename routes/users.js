@@ -47,7 +47,7 @@ router.post("/", async (req, res) => {
   });
   if (user) return res.status(400).send("email already taken");
 
-  let user = await User.findOne({
+  user = await User.findOne({
     varsityId: req.body.varsityId,
   });
   if (user) return res.status(400).send("Varsity Id already taken");
