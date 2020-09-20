@@ -4,6 +4,8 @@
 
 # Usage
 
+Download MongoDB Compass community
+
 Rename "config/config.env.env" to "cofig/config.env" and update the values.
 
 # Install Dependencies
